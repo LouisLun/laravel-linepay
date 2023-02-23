@@ -1,0 +1,30 @@
+{
+    "name": "louis/laravel-linepay",
+    "description": "the package is linepay's payment api",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": ">=6.5.8",
+        "illuminate/config": ">=5.1",
+        "illuminate/contracts": ">=5.1",
+        "illuminate/log": ">=5.1",
+        "illuminate/support": ">=5.1",
+        "nesbot/carbon": ">=1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.0",
+        "mockery/mockery": "^1.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Louis\\LaravelLinepay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Louis",
+            "email": "louis.zhan.tidy@gmail.com"
+        }
+    ]
+}
