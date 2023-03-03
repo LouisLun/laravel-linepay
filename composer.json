@@ -1,5 +1,5 @@
 {
-    "name": "louis/laravel-linepay",
+    "name": "louislun/laravel-linepay",
     "description": "the package is linepay's payment api",
     "type": "library",
     "require": {
