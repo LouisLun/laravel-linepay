@@ -20,11 +20,11 @@ composer require louis/laravel-linepay
         /*
          * Package Service Providers...
          */
-        Louis\LaravelLinepay\LinepayServiceProvider::class,
+        \Louis\LaravelLinepay\LinepayServiceProvider::class,
     ],
     'aliases' => [
         ...
-        'Linepay' => Louis\LaravelLinepay\Facades\Linepay::class,
+        'Linepay' => \Louis\LaravelLinepay\Facades\Linepay::class,
     ]
 ```
 
