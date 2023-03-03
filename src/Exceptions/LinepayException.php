@@ -1,5 +1,5 @@
 <?php
-namespace Louis\LaravelLinepay\Exceptions;
+namespace LouisLun\LaravelLinepay\Exceptions;
 
 use Exception;
 use Throwable;

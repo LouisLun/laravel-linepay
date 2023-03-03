@@ -1,5 +1,5 @@
 <?php
-namespace Louis\LaravelLinepay;
+namespace LouisLun\LaravelLinepay;
 
 use Illuminate\Support\ServiceProvider;
 

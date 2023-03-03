@@ -20,12 +20,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Louis\\LaravelLinepay\\": "src/"
+            "LouisLun\\LaravelLinepay\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Louis\\LaravelLinepay\\Tests\\": "tests"
+            "LouisLun\\LaravelLinepay\\Tests\\": "tests"
         }
     },
     "authors": [
@@ -37,10 +37,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Louis\\LaravelLinepay\\LinepayServiceProvider"
+                "LouisLun\\LaravelLinepay\\LinepayServiceProvider"
             ],
             "aliases": {
-                "Linepay": "Louis\\LaravelLinepay\\Facades\\Linepay"
+                "linepay": "LouisLun\\LaravelLinepay\\Facades\\Linepay"
             }
         }
     },

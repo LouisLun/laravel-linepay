@@ -20,18 +20,18 @@ composer require louis/laravel-linepay
         /*
          * Package Service Providers...
          */
-        \Louis\LaravelLinepay\LinepayServiceProvider::class,
+        \LouisLun\LaravelLinepay\LinepayServiceProvider::class,
     ],
     'aliases' => [
         ...
-        'Linepay' => \Louis\LaravelLinepay\Facades\Linepay::class,
+        'Linepay' => \LouisLun\LaravelLinepay\Facades\Linepay::class,
     ]
 ```
 
 ### 發布設置檔案
 
 ```
-php artisan vendor:publish --provider="Louis\LaravelLinepay\LinepayServiceProvider"
+php artisan vendor:publish --provider="LouisLun\LaravelLinepay\LinepayServiceProvider"
 ```
 
 ## 使用

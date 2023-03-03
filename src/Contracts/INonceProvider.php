@@ -1,5 +1,5 @@
 <?php
-namespace Louis\LaravelLinepay\Contracts;
+namespace LouisLun\LaravelLinepay\Contracts;
 
 interface INonceProvider
 {

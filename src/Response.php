@@ -1,5 +1,5 @@
 <?php
-namespace Louis\LaravelLinepay;
+namespace LouisLun\LaravelLinepay;
 
 use ArrayAccess;
 use Illuminate\Contracts\Support\Arrayable;
