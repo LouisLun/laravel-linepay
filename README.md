@@ -5,7 +5,7 @@ Laravel Linepay 為針對 Laravel 所寫的金流套件，主要實作Linepay付
 ## 安裝
 
 ```
-composer require louis/laravel-linepay
+composer require louislun/laravel-linepay
 ```
 
 ### 註冊套件
