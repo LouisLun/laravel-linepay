@@ -91,7 +91,6 @@ class Linepay
      */
     public function __construct($config = [])
     {
-        dd($config);
         $this->config = $config;
         $channelId = $config['channelId'] ?? null;
         $channelSecret = $config['channelSecret'] ?? null;
